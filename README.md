@@ -1,6 +1,6 @@
 # Critical Question Generation using Fine-tuned Flan-T5 Model
 
-This repository provides code, experiments, and a detailed report for generating critical questions from text passages using a fine-tuned [Flan-T5](https://huggingface.co/google/flan-t5-small) language model. The project was developed as a term project to investigate the effectiveness of large language models in supporting deep reading comprehension and educational tasks.
+This repository provides code, experiments, and a detailed report for generating critical questions from text passages using fine-tuned [Flan-T5](https://huggingface.co/google/flan-t5-small) language model (small and base versions). The project was developed as a term project to investigate the effectiveness of large language models in supporting deep reading comprehension and educational tasks.
 
 ## Project Overview
 
@@ -8,7 +8,7 @@ This repository provides code, experiments, and a detailed report for generating
   Automatically generate high-quality, thought-provoking ("critical") questions from reading passages to assist educational and research activities.
 
 - **Approach:**  
-  - Utilizes the Flan-T5 model, a widely-used sequence-to-sequence transformer, as the base.
+  - Utilizes the Flan-T5 small and Flan-T5 base models, widely-used sequence-to-sequence transformers, as the base.
   - Fine-tuning performed on open datasets curated for question generation tasks.
   - All experimentation and analysis are conducted using Jupyter Notebooks.
 
